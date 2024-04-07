@@ -30,14 +30,15 @@ h2, h3{
 
 /* ヘッダー(navbar) */
 .navbar{
-    /* border-bottom: 1px solid #a29080; */
-    background-color: #fbfbf2;
+    /* border-bottom: 1px solid #a29080; 
+    background-color: #fbfbf2;*/
 }
 .navbar .navbar-collapse{
     flex-grow: 0;
 }
 .navbar .navbar-brand{
-    height: 50px;
+    height: 80px;
+    padding: 1px 1px;
 }
 .navbar .navbar-brand img{
     height: 100%;
@@ -91,7 +92,7 @@ h2, h3{
 /* メイン画像 */
 h1{
     font-weight: bold !important;
-    color: #0093ff;
+    color: #1974d5;
 }
 #page-top h1 + span {
     font-size: 3rem;
