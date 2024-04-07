@@ -19,7 +19,7 @@ h2, h3{
     color: #6c757d;
 }
 .card{
-    border-color: #e0c7b2;
+    border-color: #3a82e0;
 }
 .img-thumbnail {
     width: 100%;
@@ -30,8 +30,8 @@ h2, h3{
 
 /* ヘッダー(navbar) */
 .navbar{
-    border-bottom: 1px solid #a29080;
-    background-color: #401f0f;
+    /* border-bottom: 1px solid #a29080; */
+    background-color: #fbfbf2;
 }
 .navbar .navbar-collapse{
     flex-grow: 0;
@@ -52,16 +52,16 @@ h2, h3{
 
 /* フッター */
 #footer{
-    background-color: #563322;
+    /* background-color: #563322; */
 }
 #footer .container{
-    color: #e0c7b2;
+    color: #401f0f;
 }
 #footer .footer-ttl{
     font-size: 1rem;
     font-weight: bold;
     margin: 1.5rem 0;
-    color: #ffce11;
+    color: #401f0f;
 }
 #footer address p,
 #footer #footer-news li{
@@ -79,9 +79,9 @@ h2, h3{
     margin-right: 0.5rem;
 }
 #footer #copyright{
-    border-top: 1px solid #774831;
-    background-color: #401f0f;
-    color: #e0c7b2;
+    /*border-top: 1px solid #774831;
+    background-color: #401f0f;*/
+    color: #401f0f;
 }
 #footer img {
 	width: 360px;
@@ -91,7 +91,7 @@ h2, h3{
 /* メイン画像 */
 h1{
     font-weight: bold !important;
-    color: #ffce11;
+    color: #0093ff;
 }
 #page-top h1 + span {
     font-size: 3rem;
@@ -122,12 +122,12 @@ h1{
 
 /* 各セクション */
 #page-top section{
-    border-bottom: 1px solid #e0c7b2;
+    border-bottom: 1px solid ##3a82e0;
     background-color: #fbfbf2;
 	padding: 5rem 0;
 }
 #page-top section:nth-child(odd){
-    background-color: #e0c7b2;
+    /*background-color: #e0c7b2;*/
 }
 #page-top section .container > h2{
     margin-bottom: 30px;
